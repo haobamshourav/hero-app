@@ -1,16 +1,40 @@
-# React + Vite
+🚀 Technologies Used
+Core Technologies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React 19.2.0 - UI library for building user interfaces
+React Router DOM 7.9.4 - Client-side routing and navigation
+Vite 7.1.11 - Fast build tool and development server
 
-Currently, two official plugins are available:
+Styling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tailwind CSS 4.1.15 - Utility-first CSS framework
+DaisyUI 5.3.8 - Component library for Tailwind CSS
 
-## React Compiler
+Additional Libraries
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Axios 1.13.0 - HTTP client for API requests
+React Hot Toast 2.6.0 - Toast notifications
+Recharts 3.3.0 - Charting library for data visualization
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Features
+1. App Browsing
+
+Browse trending apps on the homepage
+View app details including name, description, category, and download count
+Clean and modern card-based UI
+
+2. Install Apps
+
+Install Button: Click to install any app
+Installed State: Button changes to "Installed" (disabled) after installation
+
+
+3. Toast Notifications
+
+Success notification when an app is installed
+
+6. Active Navigation
+
+Active link highlighting in navbar
+Visual indication of current page
