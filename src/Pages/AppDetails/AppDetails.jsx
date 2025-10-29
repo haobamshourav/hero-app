@@ -35,7 +35,7 @@ const AppDetails = () => {
             <div className="card lg:card-side bg-base-100 shadow-sm mt-5 mx-auto p-5 flex flex-col lg:flex-row items-center lg:items-start">
                 <figure className="lg:w-1/3 w-full mb-5 lg:mb-0">
                     <img
-                        src={image}
+                        src={image.replace('./', '/')}
                         alt="app image" className="rounded-lg w-full"/>
                 </figure>
                 <div className="card-body lg:w-2/3 w-full lg:pl-10">
