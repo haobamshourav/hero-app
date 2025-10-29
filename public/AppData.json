@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/src/assets/demo-app (1).webp",
+    "image": "/src/assets/demo-app1.webp",
     "title": "Chatify Messenger",
     "companyName": "WaveSoft Technologies",
     "description": "Connect with friends and family instantly with real-time messaging and voice calls.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "/src/assets/demo-app (2).webp",
+    "image": "/src/assets/demo-app2.webp",
     "title": "TaskPro",
     "companyName": "NextGen Labs",
     "description": "Organize your work and personal life with smart task lists, reminders, and progress tracking.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "/src/assets/demo-app (3).webp",
+    "image": "/src/assets/demo-app3.webp",
     "title": "FitLife",
     "companyName": "ZenTech",
     "description": "Your ultimate fitness companion with personalized workouts, diet plans, and progress analytics.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "/src/assets/demo-app (4).webp",
+    "image": "/src/assets/demo-app4.webp",
     "title": "Musicly",
     "companyName": "SoundFlow Ltd",
     "description": "Stream your favourite songs, create playlists, and discover trending artists worldwide.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "image": "/src/assets/demo-app (5).webp",
+    "image": "/src/assets/demo-app5.webp",
     "title": "PhotoEdit Pro",
     "companyName": "PixelWorks Studio",
     "description": "Edit photos like a pro with AI filters, background remover, and beauty enhancements.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "image": "/src/assets/demo-app (6).webp",
+    "image": "/src/assets/demo-app6.webp",
     "title": "LearnHub",
     "companyName": "EduSoft Global",
     "description": "Interactive learning platform offering free and premium online courses from top instructors.",
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "image": "/src/assets/demo-app (1).webp",
+    "image": "/src/assets/demo-app1.webp",
     "title": "FinTrack",
     "companyName": "SmartMoney Inc.",
     "description": "Track your expenses, set budgets, and grow savings with AI-based financial insights.",
@@ -127,7 +127,7 @@
   },
   {
     "id": 8,
-    "image": "/src/assets/demo-app (2).webp",
+    "image": "/src/assets/demo-app2.webp",
     "title": "WeatherWise",
     "companyName": "ClimaTech",
     "description": "Real-time weather updates, forecasts, and storm alerts with stunning visuals.",
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "image": "/src/assets/demo-app (3).webp",
+    "image": "/src/assets/demo-app3.webp",
     "title": "TravelGo",
     "companyName": "TripZen Pvt. Ltd.",
     "description": "Plan trips, book hotels, and discover new destinations with AI travel recommendations.",
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "image": "/src/assets/demo-app (4).webp",
+    "image": "/src/assets/demo-app4.webp",
     "title": "GameLand",
     "companyName": "PixelFun Studio",
     "description": "Discover and play trending mobile games in one place — download, compete, and win rewards.",
@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "image": "/src/assets/demo-app (5).webp",
+    "image": "/src/assets/demo-app5.webp",
     "title": "Readly",
     "companyName": "BookNest Co.",
     "description": "Thousands of ebooks and audiobooks in one place. Read offline and sync across devices.",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "/src/assets/demo-app (6).webp",
+    "image": "/src/assets/demo-app6.webp",
     "title": "Shopio",
     "companyName": "RetailX",
     "description": "Your one-stop shopping app with exclusive offers, fast delivery, and secure payments.",
@@ -217,7 +217,7 @@
   },
   {
     "id": 13,
-    "image": "/src/assets/demo-app (1).webp",
+    "image": "/src/assets/demo-app1.webp",
     "title": "MediCare",
     "companyName": "HealthLink Digital",
     "description": "Consult doctors online, track prescriptions, and manage your health reports securely.",
@@ -235,7 +235,7 @@
   },
   {
     "id": 14,
-    "image": "/src/assets/demo-app (2).webp",
+    "image": "/src/assets/demo-app2.webp",
     "title": "CookMate",
     "companyName": "FoodFusion Studio",
     "description": "Find recipes, watch tutorials, and manage grocery lists in one smart kitchen app.",
@@ -253,7 +253,7 @@
   },
   {
     "id": 15,
-    "image": "/src/assets/demo-app (3).webp",
+    "image": "/src/assets/demo-app3.webp",
     "title": "DriveEasy",
     "companyName": "AutoTech Labs",
     "description": "Monitor your car’s performance, mileage, and maintenance schedule with AI insights.",
@@ -271,7 +271,7 @@
   },
   {
     "id": 16,
-    "image": "/src/assets/demo-app (4).webp",
+    "image": "/src/assets/demo-app4.webp",
     "title": "StudyNow",
     "companyName": "EduMaster",
     "description": "Flashcards, quizzes, and notes — the ultimate student productivity toolkit.",
@@ -289,7 +289,7 @@
   },
   {
     "id": 17,
-    "image": "/src/assets/demo-app (5).webp",
+    "image": "/src/assets/demo-app5.webp",
     "title": "Relaxify",
     "companyName": "CalmSpace Studio",
     "description": "Meditation, sleep sounds, and stress relief sessions for mental well-being.",
@@ -307,7 +307,7 @@
   },
   {
     "id": 18,
-    "image": "/src/assets/demo-app (6).webp",
+    "image": "/src/assets/demo-app6.webp",
     "title": "NewsBeat",
     "companyName": "InfoPulse Media",
     "description": "Stay informed with the latest headlines, live updates, and personalized news feed.",
@@ -325,7 +325,7 @@
   },
   {
     "id": 19,
-    "image": "/src/assets/demo-app (1).webp",
+    "image": "/src/assets/demo-app1.webp",
     "title": "HealthTrack",
     "companyName": "WellnessCorp",
     "description": "Track your daily health metrics, water intake, sleep patterns and get friendly nudges to stay healthy.",
@@ -343,7 +343,7 @@
   },
   {
     "id": 20,
-    "image": "/src/assets/demo-app (2).webp",
+    "image": "/src/assets/demo-app2.webp",
     "title": "Eventify",
     "companyName": "GatherUp Inc.",
     "description": "Discover local events, buy tickets, RSVP with friends and share experiences with this social event-platform.",

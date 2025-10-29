@@ -12,7 +12,7 @@ const TrandingApp = ({ singleApp }) => {
             <figure>
                 <img className='rounded-xl mt-3'
                     src={image}
-                    alt="Shoes" />
+                    alt="app image" />
             </figure>
             <div className="card-body">
                 <h2 className="card-title">
