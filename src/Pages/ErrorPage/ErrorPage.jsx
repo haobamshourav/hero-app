@@ -1,9 +1,11 @@
 import React from 'react';
+import page from '../../assets/error-404.png'
 
 const ErrorPage = () => {
     return (
-        <div>
-            <h1>Page Not Found</h1>
+        <div className='grid justify-center'>
+            <img src={page} alt="" />
+            <h1 className='text-5xl'>Page Not Found</h1>
         </div>
     );
 };

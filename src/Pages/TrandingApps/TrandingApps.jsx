@@ -12,7 +12,7 @@ const TrandingApps = ({data}) => {
             <Suspense fallback={<span>Loading...</span>}>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 pt-2'>
                     {
-                    data.map((singleApp)=><TrandingApp key={singleApp.id} singleApp={singleApp}></TrandingApp>)
+                    data.slice(0, 8).map((singleApp)=><TrandingApp key={singleApp.id} singleApp={singleApp}></TrandingApp>)
                 }
                 </div>
             </Suspense>

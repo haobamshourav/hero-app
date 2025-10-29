@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png';
 
 const Navbar = () => {
     const links = <>
         <Link to='/'><li className='mr-8'>Home</li></Link>
         <Link to='/apps'><li className='mr-8'>Apps</li></Link>
-        <li className='mr-8'>Installation</li>
+        <Link to='/installation'><li className='mr-8'>Installation</li></Link>
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm">
@@ -20,7 +21,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl text-[#9F62F2]"><img className='w-[48px]' src="/src/assets/logo.png" alt="" />HERO.IO</a>
+                <a className="btn btn-ghost text-xl text-[#9F62F2]"><img className='w-[48px]' src={logo} alt="" />HERO.IO</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
