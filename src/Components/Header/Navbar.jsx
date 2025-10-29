@@ -1,13 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.png';
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
-    const links = <>
-        <Link to='/'><li className='mr-8'>Home</li></Link>
-        <Link to='/apps'><li className='mr-8'>Apps</li></Link>
-        <Link to='/installation'><li className='mr-8'>Installation</li></Link>
-    </>
+    const linkClasses = ({ isActive }) =>
+        isActive
+            ? "text-[#9F62F2] font-semibold underline underline-offset-4 mr-8"
+            : "text-gray-200 hover:text-[#9F62F2] transition mr-8";
+
+    const links = (
+        <>
+            <li><NavLink to="/" className={linkClasses}>Home</NavLink></li>
+            <li><NavLink to="/apps" className={linkClasses}>Apps</NavLink></li>
+            <li><NavLink to="/installation" className={linkClasses}>Installation</NavLink></li>
+        </>
+    );
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
@@ -21,7 +29,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl text-[#9F62F2]"><img className='w-[48px]' src={logo} alt="" />HERO.IO</a>
+                <a className="btn btn-ghost text-xl text-4 font-bold text-[#9F62F2]"><img className='w-[40px]' src={logo} alt="" />HERO.IO</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -29,7 +37,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn bg-[#9F62F2] text-white">Contribute</a>
+                <a className="btn bg-[#9F62F2] text-white"><FaGithub />Contribute</a>
             </div>
         </div>
     );
